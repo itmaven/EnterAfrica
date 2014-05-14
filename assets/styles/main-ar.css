@@ -1,0 +1,13 @@
+@import url(layout-ar.css);
+@import url(pages-ar.css);
+@import url(elements-ar.css);
+@import url(framework-ar.css);
+@import url(fonts/caviardreams/stylesheet.css);
+@import url(fonts/font-awesome/font-awesome.min.css);
+
+/* If you want to add your own css code, please do it in the custom.css file */
+@import url(custom.css);
+
+/* Remove this before using the template */
+
+@import url(demo-only.css);

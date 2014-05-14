@@ -1,0 +1,247 @@
+@import url("http://fonts.googleapis.com/css?family=Play&subset=latin,cyrillic,latin-ext");
+#Banner-container { 
+	zoom: 1; 
+	position: relative; 
+	max-width:1200px;
+	margin:0px auto 0px;
+	z-index:90;
+	border:8px solid #fff;
+	text-align:left; /* reset align=center */
+}
+* html #Banner-container{ width:1200px }
+#Banner-container .ws_images ul{
+	position:relative;
+	width: 10000%; 
+	height:auto;
+	left:0;
+	list-style:none;
+	margin:0;
+	padding:0;
+	border-spacing:0;
+	overflow: visible;
+	/*table-layout:fixed;*/
+}
+#Banner-container .ws_images ul li{
+	width:1%;
+	line-height:0; /*opera*/
+	float:left;
+	font-size:0;
+	padding:0 0 0 0 !important;
+	margin:0 0 0 0 !important;
+}
+
+#Banner-container .ws_images{
+	position: relative;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+#Banner-container .ws_images a{
+	width:100%;
+	display:block;
+	color:transparent;
+}
+#Banner-container img{
+	max-width: none !important;
+}
+#Banner-container .ws_images img{
+	width:100%;
+	border:none 0;
+	max-width: none;
+	padding:0;
+}
+#Banner-container a{ 
+	text-decoration: none; 
+	outline: none; 
+	border: none; 
+}
+
+#Banner-container  .ws_bullets { 
+	font-size: 0px; 
+	float: left;
+	position:absolute;
+	z-index:70;
+}
+#Banner-container  .ws_bullets div{
+	position:relative;
+	float:left;
+}
+#Banner-container  .wsl{
+	display:none;
+}
+#Banner-container sound, 
+#Banner-container object{
+	position:absolute;
+}
+
+#Banner-container  .ws_bullets { 
+	padding: 3px; 
+}
+#Banner-container .ws_bullets a { 
+	width:21px;
+	height:21px;
+	background: url(./bullet.png) left top;
+	float: left; 
+	text-indent: -4000px; 
+	position:relative;
+	margin-left:3px;
+	color:transparent;
+}
+#Banner-container .ws_bullets a:hover, #Banner-container .ws_bullets a.ws_selbull{
+	background-position: 0 100%;
+}
+#Banner-container a.ws_next, #Banner-container a.ws_prev {
+	position:absolute;
+	display:none;
+	top:50%;
+	margin-top:-30px;
+	z-index:60;
+	height: 44px;
+	width: 44px;
+	background-image: url(./arrows.png);
+}
+#Banner-container a.ws_next{
+	background-position: 100% 0;
+	right:15px;
+}
+#Banner-container a.ws_prev {
+	left:15px;
+	background-position: 0 0; 
+}
+#Banner-container a.ws_next:hover{
+	background-position: 100% 100%;
+}
+#Banner-container a.ws_prev:hover {
+	background-position: 0 100%; 
+}
+
+* html #Banner-container a.ws_next,* html #Banner-container a.ws_prev{display:block}
+#Banner-container:hover a.ws_next, #Banner-container:hover a.ws_prev {display:block}
+
+/*playpause*/
+#Banner-container .ws_playpause {
+	display:none;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -22px;
+    margin-top: -22px;
+    z-index: 59;
+}
+
+#Banner-container:hover .ws_playpause {
+	display:block;
+}
+
+#Banner-container .ws_pause {
+    background-image: url(./pause.png);
+}
+
+#Banner-container .ws_play {
+    background-image: url(./play.png);
+}
+
+#Banner-container .ws_pause:hover, #Banner-container .ws_play:hover {
+    background-position: 100% 100% !important;
+}/* bottom center */
+#Banner-container  .ws_bullets {
+    bottom:0px;
+	left:50%;
+}
+#Banner-container  .ws_bullets div{
+	left:-50%;
+}
+#Banner-container .ws-title{
+	position: absolute;
+	display:block;
+	bottom: 27px;
+	left: 0px;
+	z-index: 50;
+	padding:8px;
+	margin-right: 15px;
+	color: #FFFFFF;
+	background:#000000;
+    font-family:'Play',Verdana,Geneva,sans-serif;
+	font-size: 32px;
+	line-height: 35px;
+	font-weight: normal;
+}
+#Banner-container .ws-title div{
+	font-size: 20px;
+	line-height: 22px;
+}#Banner-container .ws_images ul{
+	animation: wsBasic 14.7s infinite;
+	-moz-animation: wsBasic 14.7s infinite;
+	-webkit-animation: wsBasic 14.7s infinite;
+}
+@keyframes wsBasic{0%{left:-0%} 17.01%{left:-0%} 33.33%{left:-100%} 50.34%{left:-100%} 66.67%{left:-200%} 83.67%{left:-200%} }
+@-moz-keyframes wsBasic{0%{left:-0%} 17.01%{left:-0%} 33.33%{left:-100%} 50.34%{left:-100%} 66.67%{left:-200%} 83.67%{left:-200%} }
+@-webkit-keyframes wsBasic{0%{left:-0%} 17.01%{left:-0%} 33.33%{left:-100%} 50.34%{left:-100%} 66.67%{left:-200%} 83.67%{left:-200%} }
+
+#Banner-container .ws_shadow{
+	background: url(./shadow.png) left 100%;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:30px;
+	position: absolute;
+	left:0;
+	bottom:-30px;
+	z-index:-1;
+}
+* html #Banner-container .ws_shadow{/*ie6*/
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='engine1/shadow.png', sizingMethod='scale');
+}
+*+html #Banner-container .ws_shadow{/*ie7*/
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='engine1/shadow.png', sizingMethod='scale');
+}
+#Banner-container .ws_bullets  a img{
+	text-indent:0;
+	display:block;
+	bottom:20px;
+	left:-72px;
+	visibility:hidden;
+	position:absolute;
+    border: 5px solid #FFFFFF;
+	max-width:none;
+}
+#Banner-container .ws_bullets a:hover img{
+	visibility:visible;
+}
+
+#Banner-container .ws_bulframe div div{
+	height:48px;
+	overflow:visible;
+	position:relative;
+}
+#Banner-container .ws_bulframe div {
+	left:0;
+	overflow:hidden;
+	position:relative;
+	width:144px;
+	background-color:#FFFFFF;
+}
+#Banner-container  .ws_bullets .ws_bulframe{
+	display:none;
+	bottom:25px;
+	overflow:visible;
+	position:absolute;
+	cursor:pointer;
+    border: 5px solid #FFFFFF;
+}
+#Banner-container .ws_bulframe span{
+	display:block;
+	position:absolute;
+	bottom:-10px;
+	margin-left:-3px;
+	left:72px;
+	background:url(./triangle.png);
+	width:15px;
+	height:6px;
+}

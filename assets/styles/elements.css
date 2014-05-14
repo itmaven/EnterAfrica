@@ -1,0 +1,785 @@
+
+.calltoaction {
+    background-color: rgb(239, 239, 239);
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 1em;
+    padding: 30px;
+    text-transform: uppercase;
+}
+#container .calltoaction h1 {
+    font-size: 2.5em;
+    margin: 0 0 12px;
+    padding: 0;
+    text-transform: uppercase;
+}
+.calltoaction p {
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+.calltoaction .button {
+    display: block;
+    line-height: 1.4em;
+    text-align: center;
+}
+.calltoaction.opt1 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgb(255, 153, 0);
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 0 5px;
+}
+.calltoaction.opt2 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgb(255, 153, 0);
+    border-image: none;
+    border-style: solid;
+    border-width: 0 5px 0 0;
+}
+.calltoaction.opt3 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgb(255, 153, 0);
+    border-image: none;
+    border-style: solid;
+    border-width: 0 5px;
+}
+.calltoaction.opt4 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgb(255, 153, 0);
+    border-image: none;
+    border-style: solid;
+    border-width: 2px 0;
+    font-size: 1.8em;
+}
+#container .calltoaction.opt4 h1 {
+    margin: 15px 0 0;
+}
+.list {
+    list-style-position: inside;
+    margin: 10px 0;
+    padding: 0;
+}
+.list.indent {
+    margin-left: 20px;
+}
+.list li {
+    margin: 6px 0 0;
+    padding: 0;
+}
+.list li:first-child {
+    margin: 0;
+}
+.list li > ul, .list li > ol {
+    margin: 8px 0 8px 30px;
+}
+.list.disc {
+    list-style-type: disc;
+}
+.list.roman {
+    list-style-type: upper-roman;
+}
+.list.alpha {
+    list-style-type: upper-alpha;
+}
+.list.decimal {
+    list-style-type: decimal;
+}
+.list.circle {
+    list-style-type: circle;
+}
+.list.none, .list.block, .list.tick, .list.arrow, .list.tagcloud, .list.underline {
+    list-style-type: none;
+}
+.list.block li > ul, .list.block li > ol {
+    border-left: 1px solid rgb(204, 204, 204);
+    list-style: none outside none;
+    padding: 0 0 0 10px;
+}
+.list.tick li, .list.arrow li {
+    background: none no-repeat scroll 0 2px rgba(0, 0, 0, 0);
+    padding-left: 22px;
+}
+.list.tick li {
+    background-image: url("images/icons/gemicon/tick-16x16.png");
+}
+.list.arrow li {
+    background-image: url("images/icons/gemicon/arrow-16x16.png");
+}
+.list.underline li {
+    border-bottom: 1px solid rgb(229, 228, 227);
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.list.underline li:last-child {
+    margin-bottom: 0;
+}
+.list.tagcloud li {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+}
+.list.tagcloud li a {
+    background-color: rgb(168, 168, 168);
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 4px 10px;
+    text-transform: capitalize;
+}
+.list.tagcloud li a:hover {
+    background-color: rgb(255, 153, 0);
+    color: rgb(255, 255, 255);
+}
+.blue {
+    color: rgb(86, 174, 212);
+}
+.green {
+    color: rgb(192, 224, 121);
+}
+.grey {
+    color: rgb(168, 168, 168);
+}
+.dkgrey {
+    color: rgb(51, 51, 51);
+}
+.orange {
+    color: rgb(255, 153, 0);
+}
+.purple {
+    color: rgb(159, 129, 169);
+}
+.red {
+    color: rgb(213, 67, 70);
+}
+.yellow {
+    color: rgb(253, 232, 3);
+}
+.bg_blue {
+    background-color: rgb(86, 174, 212);
+    color: rgb(255, 255, 255);
+}
+.bg_green {
+    background-color: rgb(192, 224, 121);
+    color: rgb(255, 255, 255);
+}
+.bg_grey {
+    background-color: rgb(168, 168, 168);
+    color: rgb(255, 255, 255);
+}
+.bg_dkgrey {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+.bg_orange {
+    background-color: rgb(255, 153, 0);
+    color: rgb(255, 255, 255);
+}
+.bg_purple {
+    background-color: rgb(159, 129, 169);
+    color: rgb(255, 255, 255);
+}
+.bg_red {
+    background-color: rgb(213, 67, 70);
+    color: rgb(255, 255, 255);
+}
+.bg_yellow {
+    background-color: rgb(253, 232, 3);
+    color: rgb(102, 102, 102);
+}
+.divider1, .divider2, .divider3 {
+    border-top: 1px none rgb(214, 214, 214);
+    clear: both;
+    display: block;
+    height: 20px;
+    margin: 30px 0;
+    padding: 0;
+    width: 100%;
+}
+.divider1 {
+    border-top-style: solid;
+}
+.divider2 {
+    border-top-style: dotted;
+}
+.divider3 {
+    border-top-style: dashed;
+}
+.button {
+    border: 1px solid;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.button.gradient {
+    text-shadow: 2px 3px 0 rgba(30, 30, 30, 0.2);
+    transition: color 0.3s ease-in 0s, transform 0.3s ease-in 0s;
+}
+.button.small {
+    font-size: 0.9em;
+    padding: 6px 15px 5px;
+}
+.button.medium {
+    font-size: 1.1em;
+    padding: 10px 20px 9px;
+}
+.button.large {
+    font-size: 1.4em;
+    font-weight: normal;
+    padding: 18px 20px 17px;
+}
+.button.blue {
+    background-color: rgb(86, 174, 212);
+    border-color: rgb(40, 122, 157);
+    color: rgb(255, 255, 255);
+}
+.button.blue:hover {
+    background-color: rgb(28, 84, 108);
+    border-color: rgb(86, 174, 212);
+    color: rgb(86, 174, 212);
+}
+.button.blue.gradient {
+    background: linear-gradient(rgb(86, 174, 212) 0%, rgb(28, 84, 108) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.button.green {
+    background-color: rgb(192, 224, 121);
+    border-color: rgb(152, 186, 85);
+    color: rgb(255, 255, 255);
+}
+.button.green:hover {
+    background-color: rgb(152, 186, 85);
+    border-color: rgb(124, 155, 65);
+    color: rgb(124, 155, 65);
+}
+.button.green.gradient {
+    background: linear-gradient(rgb(192, 224, 121) 0%, rgb(152, 186, 85) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.button.grey {
+    background-color: rgb(168, 168, 168);
+    border-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+.button.grey:hover {
+    background-color: rgb(201, 201, 201);
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+}
+.button.grey.gradient {
+    background: linear-gradient(rgb(201, 201, 201) 0%, rgb(168, 168, 168) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.button.orange {
+    background-color: rgb(249, 83, 85);
+    border-color: rgb(204, 117, 0);
+    color: rgb(255, 255, 255);
+}
+.button.orange:hover {
+    background-color: rgb(68, 68, 68);
+    border-color: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+}
+.button.orange.gradient {
+    background: linear-gradient(rgb(255, 144, 0) 0%, rgb(166, 96, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.button.purple {
+    background-color: rgb(159, 129, 169);
+    border-color: rgb(116, 85, 125);
+    color: rgb(255, 255, 255);
+}
+.button.purple:hover {
+    background-color: rgb(72, 52, 78);
+    border-color: rgb(159, 129, 169);
+    color: rgb(159, 129, 169);
+}
+.button.purple.gradient {
+    background: linear-gradient(rgb(159, 129, 169) 0%, rgb(72, 52, 78) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.button.red {
+    background-color: rgb(213, 67, 70);
+    border-color: rgb(172, 38, 41);
+    color: rgb(255, 255, 255);
+}
+.button.red:hover {
+    background-color: rgb(122, 27, 29);
+    border-color: rgb(213, 67, 70);
+    color: rgb(213, 67, 70);
+}
+.button.red.gradient {
+    background: linear-gradient(rgb(213, 67, 70) 0%, rgb(122, 27, 29) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.button.yellow {
+    background-color: rgb(253, 232, 3);
+    border-color: rgb(253, 199, 3);
+    color: rgb(51, 51, 51);
+}
+.button.yellow:hover {
+    background-color: rgb(210, 164, 2);
+    border-color: rgb(253, 232, 3);
+    color: rgb(253, 232, 3);
+}
+.button.yellow.gradient {
+    background: linear-gradient(rgb(253, 232, 3) 0%, rgb(210, 164, 2) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.button.black {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+}
+.button.black:hover {
+    background-color: rgb(35, 35, 35);
+    border-color: rgb(0, 0, 0);
+    color: rgb(102, 102, 102);
+}
+.button.black.gradient {
+    background: linear-gradient(rgb(153, 153, 153) 0%, rgb(0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.button.white {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(168, 168, 168);
+    color: rgb(102, 102, 102);
+}
+.button.white:hover {
+    background-color: rgb(239, 239, 239);
+    border-color: rgb(0, 0, 0);
+    color: rgb(51, 51, 51);
+}
+.button.white.gradient {
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(239, 239, 239) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.alert-msg {
+    border: 1px solid rgb(240, 0, 0);
+    color: inherit;
+    display: block;
+    margin: 15px 0;
+    padding: 15px 40px 15px 20px;
+    position: relative;
+}
+.alert-msg a {
+    background-color: rgba(0, 0, 0, 0);
+}
+.alert-msg.info {
+    border-color: rgb(168, 168, 168);
+}
+.alert-msg.warning {
+    background-color: rgb(254, 231, 148);
+    border-color: rgb(253, 199, 3);
+}
+.alert-msg.success {
+    background-color: rgb(194, 228, 205);
+    border-color: rgb(118, 195, 143);
+}
+.alert-msg.error {
+    background-color: rgb(243, 203, 204);
+    border-color: rgb(213, 67, 70);
+}
+.alert-msg .close {
+    color: rgb(153, 153, 153);
+    font-size: 1.4em;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.accordion-wrapper, .toggle-wrapper {
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+}
+.accordion-wrapper:first-child, .toggle-wrapper:first-child {
+    margin-top: 0;
+}
+.accordion-wrapper .accordion-title, .accordion-wrapper .accordion-title.active, .toggle-wrapper .toggle-title, .toggle-wrapper .toggle-title.active {
+    background: none no-repeat scroll 9px center rgba(0, 0, 0, 0);
+    border: 1px solid rgb(229, 228, 227);
+    display: block;
+    padding: 0 0 0 34px;
+}
+.accordion-wrapper .accordion-title span, .accordion-wrapper .accordion-title.active span, .toggle-wrapper .toggle-title span, .toggle-wrapper .toggle-title.active span {
+    border-left: 1px solid rgb(229, 228, 227);
+    display: block;
+    padding: 8px 15px;
+}
+.accordion-wrapper .accordion-title, .toggle-wrapper .toggle-title {
+    background-image: url("images/icons/gemicon/plus-16x16.png");
+}
+.accordion-wrapper .accordion-title.active, .toggle-wrapper .toggle-title.active {
+    background-image: url("images/icons/gemicon/minus-16x16.png");
+    color: rgb(0, 0, 0);
+}
+.accordion-wrapper .accordion-content, .toggle-wrapper .toggle-content {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgb(229, 228, 227);
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    display: none;
+    padding: 15px 32px;
+}
+.tab-wrapper {
+    display: block;
+    width: 100%;
+}
+.tab-wrapper .tab-nav {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.tab-wrapper .tab-nav li {
+    display: inline-block;
+    float: left;
+    margin: 0 -1px -1px 0;
+}
+.tab-wrapper .tab-nav li a {
+    border: 1px solid rgb(229, 228, 227);
+    display: block;
+    padding: 10px 20px;
+}
+.tab-wrapper .tab-nav li a:hover, .tab-wrapper .tab-nav li.ui-tabs-active a {
+    color: rgb(145, 145, 145);
+}
+.tab-wrapper .tab-nav li.ui-tabs-active a {
+    border-bottom-color: rgb(255, 255, 255);
+    cursor: default;
+}
+.tab-wrapper .tab-container {
+    border: 1px solid rgb(229, 228, 227);
+    display: block;
+    padding: 20px 25px 15px;
+}
+.tab-wrapper.rnd5 .tab-nav li:first-child a {
+    border-radius: 5px 0 0;
+}
+.tab-wrapper.rnd5 .tab-nav li:last-child a {
+    border-radius: 0 5px 0 0;
+}
+.tab-wrapper.rnd5 .tab-container {
+    border-radius: 0 5px 5px;
+}
+.tab-wrapper.rnd8 .tab-nav li:first-child a {
+    border-radius: 8px 0 0;
+}
+.tab-wrapper.rnd8 .tab-nav li:last-child a {
+    border-radius: 0 8px 0 0;
+}
+.tab-wrapper.rnd8 .tab-container {
+    border-radius: 0 8px 8px;
+}
+.tab-wrapper.rnd10 .tab-nav li:first-child a {
+    border-radius: 10px 0 0;
+}
+.tab-wrapper.rnd10 .tab-nav li:last-child a {
+    border-radius: 0 10px 0 0;
+}
+.tab-wrapper.rnd10 .tab-container {
+    border-radius: 0 10px 10px;
+}
+.tab-wrapper.rnd12 .tab-nav li:first-child a {
+    border-radius: 12px 0 0;
+}
+.tab-wrapper.rnd12 .tab-nav li:last-child a {
+    border-radius: 0 12px 0 0;
+}
+.tab-wrapper.rnd12 .tab-container {
+    border-radius: 0 12px 12px;
+}
+.tab-wrapper.tab-opt2 div {
+    margin-bottom: 0;
+}
+.tab-wrapper.tab-opt2 .tab-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 15px;
+}
+.tab-wrapper.tab-opt2 .tab-nav li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color rgb(229, 228, 227);
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    display: block;
+    padding: 10px 20px 10px 0;
+}
+.tab-wrapper.tab-opt2 .tab-nav li.ui-tabs-active a {
+    background: url("images/icons/gemicon/arrow-16x16.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.tab-wrapper.tab-opt2 .tab-container {
+    border: medium none;
+    margin-bottom: 0;
+    padding: 20px 0 0;
+}
+.pricingtable-wrapper {
+    border: 1px solid rgb(229, 228, 227);
+    line-height: normal;
+    text-align: center;
+}
+.pricingtable-wrapper .pricingtable {
+    display: block;
+}
+#container .pricingtable-title h2 {
+    margin: 0;
+    padding: 20px 5px;
+    text-transform: capitalize;
+}
+.pricingtable-wrapper .pricingtable .pricingtable-list ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0 25px;
+}
+.pricingtable-wrapper .pricingtable .pricingtable-list ul li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgb(229, 228, 227);
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0 0;
+    padding: 10px 5px;
+}
+.pricingtable-wrapper .pricingtable .pricingtable-list ul li:first-child {
+    border: medium none;
+}
+.pricingtable-wrapper .pricingtable .pricingtable-price {
+    font-size: 2.5em;
+    padding: 15px 5px;
+}
+.pricingtable-wrapper .pricingtable .pricingtable-price sup {
+    font-size: 0.3em;
+}
+.pricingtable-wrapper .pricingtable .pricingtable-price span {
+    display: block;
+    font-size: 0.3em;
+    margin: -5px 0 0;
+}
+.pricingtable-wrapper .pricingtable .pricingtable-signup {
+    padding: 10px;
+}
+.pricingtable-wrapper .pricingtable .pricingtable-signup a {
+    display: block;
+}
+.pricingtable-wrapper .pricingtable .pricingtable-title, .pricingtable-wrapper .pricingtable .pricingtable-price {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+.pricingtable-wrapper.opt2 {
+    border: 5px solid rgb(229, 228, 227);
+    padding: 10px 10px 0;
+}
+.pricingtable-wrapper.rnd5 .pricingtable-title {
+    border-radius: 5px 5px 0 0;
+}
+.pricingtable-wrapper.rnd8 .pricingtable-title {
+    border-radius: 8px 8px 0 0;
+}
+.pricingtable-wrapper.rnd10 .pricingtable-title {
+    border-radius: 10px 10px 0 0;
+}
+.pricingtable-wrapper.rnd12 .pricingtable-title {
+    border-radius: 12px 12px 0 0;
+}
+.skillset ul li {
+    margin: 8px 0 0;
+}
+.skillset ul li:first-child {
+    margin-top: 0;
+}
+.skillset ul li div {
+    background-color: rgb(226, 226, 226);
+    color: rgb(51, 51, 51);
+    display: block;
+    margin: 5px 0 0;
+    padding: 3px;
+}
+.skillset ul li strong {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    display: block;
+    font-weight: normal;
+    line-height: normal;
+    padding: 5px 8px;
+}
+.skillset ul li.size-20 strong {
+    width: 16.5%;
+}
+.skillset ul li.size-25 strong {
+    width: 21.5%;
+}
+.skillset ul li.size-30 strong {
+    width: 26.5%;
+}
+.skillset ul li.size-35 strong {
+    width: 31.5%;
+}
+.skillset ul li.size-40 strong {
+    width: 36.5%;
+}
+.skillset ul li.size-45 strong {
+    width: 41.5%;
+}
+.skillset ul li.size-50 strong {
+    width: 46.5%;
+}
+.skillset ul li.size-55 strong {
+    width: 51.5%;
+}
+.skillset ul li.size-60 strong {
+    width: 56.5%;
+}
+.skillset ul li.size-65 strong {
+    width: 61.5%;
+}
+.skillset ul li.size-70 strong {
+    width: 66.5%;
+}
+.skillset ul li.size-75 strong {
+    width: 71.5%;
+}
+.skillset ul li.size-80 strong {
+    width: 76.5%;
+}
+.skillset ul li.size-85 strong {
+    width: 81.5%;
+}
+.skillset ul li.size-90 strong {
+    width: 86.5%;
+}
+.skillset ul li.size-95 strong {
+    width: 91.5%;
+}
+.skillset ul li.size-100 strong {
+    width: 96.5%;
+}
+form, fieldset, legend {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+legend {
+    display: none;
+}
+form {
+    display: block;
+    width: 100%;
+}
+form input, form textarea {
+    -moz-box-sizing: border-box;
+    border: 1px solid rgb(229, 228, 227);
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+#respond form label, form textarea {
+    margin-bottom: 15px;
+}
+form textarea {
+    overflow: auto;
+}
+form div, form p {
+    margin: 0;
+    padding: 0;
+}
+form input[type="submit"], form input[type="reset"] {
+    background-color: rgb(255, 255, 255);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 15px;
+    width: auto;
+}
+input, textarea, select {
+    outline: medium none;
+    resize: none;
+}
+table {
+    border: 1px solid rgb(204, 204, 204);
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    table-layout: auto;
+    vertical-align: top;
+    width: 100%;
+}
+table thead th {
+    background-color: rgb(102, 102, 102);
+    border: 1px solid rgb(204, 204, 204);
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    table-layout: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+table tbody td {
+    border-collapse: collapse;
+    border-left: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid rgb(204, 204, 204);
+    vertical-align: top;
+}
+table thead th, table tbody td {
+    border-collapse: collapse;
+    padding: 5px;
+}
+table tbody tr.light {
+    background-color: rgb(247, 247, 247);
+    color: rgb(151, 151, 151);
+}
+table tbody tr.dark {
+    background-color: rgb(232, 232, 232);
+    color: rgb(151, 151, 151);
+}
+.icon-6x {
+    font-size: 6em;
+}
+.icon-8x {
+    font-size: 8em;
+}
+.icon-10x {
+    font-size: 10em;
+}
+.showtext {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.showtext .caption {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.showtext:hover .caption, .showtext:hover .caption span {
+    display: block;
+}
+.rnd5, .list.tagcloud.rnd5 a, form.rnd5 input, form.rnd5 textarea {
+ /*   border-radius: 5px;*/
+}
+.rnd8, .list.tagcloud.rnd8 a, form.rnd8 input, form.rnd8 textarea {
+    border-radius: 8px;
+}
+.rnd10, .list.tagcloud.rnd10 a, form.rnd10 input, form.rnd10 textarea {
+    border-radius: 10px;
+}
+.rnd12, .list.tagcloud.rnd12 a, form.rnd12 input, form.rnd12 textarea {
+    border-radius: 12px;
+}

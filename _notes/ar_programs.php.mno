@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cities" value="name:ID;datatype:int,name:ArName;datatype:string" />
+	<infoitem key="UD_tourism_type" value="name:ID;datatype:int,name:ArTourismType;datatype:string" />
+	<infoitem key="UD_programs" value="name:ID;datatype:int,name:ArTitle;datatype:blob,name:ImageURL;datatype:blob,name:TripCode;datatype:string,name:Price;datatype:blob,name:DateFrom;datatype:datetime,name:DateTo;datatype:datetime" />
+</info>

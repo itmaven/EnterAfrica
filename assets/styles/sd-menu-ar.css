@@ -1,0 +1,38 @@
+﻿#sd-nav {
+    float: left;
+	list-style:none;
+	width:100%
+}
+#sd-nav li a {
+    display: block;
+   padding: 10px 20px;
+  /*  border-top: 1px solid #eee;
+    border-bottom: 1px solid #999; */
+    text-decoration: none;
+    color: #000;
+}
+#sd-nav li a:hover, #sd-nav li a.active {
+    color: #FB5642;
+	background-color:#F2F2F2;
+	font-weight:400;
+	padding: 10px 40px;
+	font-size:1.2em;
+}
+#sd-nav li ul {
+    display: none; // used to hide sub-menus
+}
+#sd-nav li ul li a {
+   padding: 10px 30px;
+   border-bottom: 1px dotted #ccc;
+   background-color:#fbfbfb;
+   color: #666;
+}
+
+#sd-nav li ul li a:hover {
+   background-color:#fff;
+   color: #666;
+   font-weight:normal;
+   font-size:1em;
+   padding: 10px 30px;
+
+}
